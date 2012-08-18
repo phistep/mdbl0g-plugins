@@ -15,5 +15,5 @@ else unset($tags);
 
 
 $post['content'] = implode("\n", $contentarray);
-$data['tags'] = $tags;
+$post['tags'] = $tags;
 ?>

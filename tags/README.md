@@ -1,4 +1,4 @@
-# Tags
+# Tag
 Tag your posts with tags. Everyone loves tags! Simply add tags to your posts by writing them in the first line, separated by `%` (and also beginning with a `%`!). Trailing whitespace will be cut off.
 
     Title:
