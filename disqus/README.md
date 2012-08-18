@@ -8,4 +8,4 @@ Beautiful, real-time, engaging discussions for your website.
 
 
 # Options
-* `SHORTNAME` Your disqus account shortname. Required! Configure in `html_head.php`
+* `DISQUS_SHORTNAME` Your disqus account shortname. Required! Configure in the Admin Interface or in `html_head.php`
