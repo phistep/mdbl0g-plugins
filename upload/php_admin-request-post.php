@@ -30,6 +30,7 @@ if(preg_match("/admin/", getcwd()) && isset($_POST['upload-file'])){
 </head>
 <body>
 	<div class="alert success" style="width:400px;">
+		<p><a href="<?php echo BASE_URL."/admin/"; ?>">Back to Admin Interface</a></p>
 		<p>MIME-Type: <code><?php echo $mime = @finfo_file($finfo, $destinationpath); ?></code></p>
 		<p>Link: <a href="<?php echo $destinationurl; ?>" targe="blank"><?php echo $destinationfilename; ?></a></p>
 		<p>URL: <input id="url" onClick="select_all('url')" type="text" value="<?php echo $destinationurl; ?>" readonly></p>
