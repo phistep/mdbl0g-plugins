@@ -7,7 +7,7 @@ if(preg_match("/admin/", getcwd()) && isset($_POST['upload-file'])){
 	if ($uploadfile["error"] > 0)
 		alert("Error Uploading File: ".$uploadfile["error"], "error", BASE_URL."/admin/");
 	
-	$destinationfilename = mktime(date()).'_'.$uploadfile["name"];
+	$destinationfilename = mktime(date()).'_'.to_url($uploadfile["name"]);
 	$destinationpath = BASE_PATH."plugins/upload/files/".$destinationfilename;
 	$destinationurl = BASE_URL."plugins/upload/files/".$destinationfilename;
 	
