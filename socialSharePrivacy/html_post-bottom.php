@@ -1,5 +1,5 @@
 <?php
-if($data['type'] == 'post'){
+if($DATA['type'] == 'post'){
 ?>
 <div id="socialshareprivacy"></div>
 <!-- socialSharePrivacy -->
@@ -10,7 +10,7 @@ if($data['type'] == 'post'){
 	    $('#socialshareprivacy').socialSharePrivacy({
 			services : {
 				twitter : {
-					'tweet_text' : '<?php echo htmlspecialchars(trim($data['postTitle'])); ?>',
+					'tweet_text' : '<?php echo htmlspecialchars(trim($DATA['postTitle'])); ?>',
 					'dummy_img' : '<?php echo BASE_URL.'plugins/socialSharePrivacy/socialshareprivacy/socialshareprivacy/images/dummy_twitter.png'; ?>'
 				},
 				facebook : {
@@ -21,7 +21,7 @@ if($data['type'] == 'post'){
 				}
 			},
 			'css_path' : '<?php echo BASE_URL.'plugins/socialSharePrivacy/socialshareprivacy/socialshareprivacy/socialshareprivacy.css'; ?>',
-			'uri' : '<?php echo $data['postLink']; ?>'
+			'uri' : '<?php echo $DATA['postLink']; ?>'
 		}); 
 	  }
 	});

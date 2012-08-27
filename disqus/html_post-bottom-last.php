@@ -1,5 +1,5 @@
 <?php
-if($data['type'] == 'post'){
+if($DATA['type'] == 'post'){
 ?>
 <div id="disqus_thread"></div>
   <script type="text/javascript">

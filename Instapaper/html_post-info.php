@@ -1,1 +1,1 @@
-<a title="Instapaper" href="http://www.instapaper.com/hello2?url=<?php echo urlencode($data['postLink']); ?>&title=<?php echo urlencode($data['postTitle']); ?>">Read Later</a>
+<a title="Instapaper" href="http://www.instapaper.com/hello2?url=<?php echo urlencode($DATA['postLink']); ?>&title=<?php echo urlencode($DATA['postTitle']); ?>">Read Later</a>

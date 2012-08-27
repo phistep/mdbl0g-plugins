@@ -1,5 +1,5 @@
 <?php
-if($data['type'] == 'post'){
-	$data['contentHtml'] = "<div class=\"instapaper_body\">".$data['contentHtml']."</div>";
+if($DATA['type'] == 'post'){
+	$DATA['contentHtml'] = "<div class=\"instapaper_body\">".$DATA['contentHtml']."</div>";
 }
 ?>

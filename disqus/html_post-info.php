@@ -1,1 +1,1 @@
-<a href="<?php echo $data['postLink']; ?>#disqus_thread">Comments</a>
+<a href="<?php echo $DATA['postLink']; ?>#disqus_thread">Comments</a>
