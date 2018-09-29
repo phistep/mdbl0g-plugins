@@ -1,3 +1,1 @@
-<?php
-	define('DISQUS_SHORTNAME', "");
-?>
+<?php define('DISQUS_SHORTNAME', ""); ?>
